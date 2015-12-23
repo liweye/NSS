@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="NSS">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="NSS.rest-service.war" deploy-path="/" handle="module:/resource/NSS.rest-service/NSS.rest-service">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="NSS.data-model.jar" deploy-path="/" handle="module:/resource/NSS.data-model/NSS.data-model">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
